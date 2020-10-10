@@ -8,6 +8,6 @@ public class GreetingFromUrl {
 
     @GetMapping("/msg/foo")
     public String message(@RequestParam String msg ){
-        return "Hello World :" + msg;
+        return "Hello World fgfggf:" + msg;
     }
 }
