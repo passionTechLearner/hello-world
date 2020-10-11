@@ -10,4 +10,9 @@ public class GreetingFromUrl {
     public String message(@RequestParam String msg ){
         return "Hello World fgfggf:" + msg;
     }
+
+    @GetMapping("/msg/name")
+    public String welcome(@RequestParam String name ){
+        return "Hello :" + name;
+    }
 }
