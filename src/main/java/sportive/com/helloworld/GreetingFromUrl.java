@@ -11,8 +11,8 @@ public class GreetingFromUrl {
         return "Hello World fgfggf:" + msg;
     }
 
-    @GetMapping("/msg/welcome")
+    @GetMapping("/msg/name")
     public String welcome(@RequestParam String name ){
-        return "Welcome to Hello world, " + name;
+        return "Hello :" + name;
     }
 }
