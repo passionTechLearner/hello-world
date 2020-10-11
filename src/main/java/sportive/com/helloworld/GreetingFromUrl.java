@@ -13,6 +13,6 @@ public class GreetingFromUrl {
 
     @GetMapping("/msg/welcome")
     public String welcome(@RequestParam String name ){
-        return "Welcome to Hello world, " + name;
+        return "Hello Welcome to Hello world, " + name;
     }
 }
